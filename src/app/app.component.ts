@@ -13,88 +13,88 @@ export class AppComponent {
   
   chessBoard2 = [
     [
-      { image: "/assets/images/blackRook.png", piece: "r", showMove: false },
-      { image: "/assets/images/blackKnight.png", piece: "n", showMove: false },
-      { image: "/assets/images/blackBishop.png", piece: "b", showMove: false },
-      { image: "/assets/images/blackQueen.png", piece: "q", showMove: false },
-      { image: "/assets/images/blackKing.png", piece: "k", showMove: false },
-      { image: "/assets/images/blackBishop.png", piece: "b", showMove: false },
-      { image: "/assets/images/blackKnight.png", piece: "n", showMove: false },
-      { image: "/assets/images/blackRook.png", piece: "r", showMove: false }
+      { image: "/assets/images/blackRook.png", piece: "r", showMove: false , showCapture: false},
+      { image: "/assets/images/blackKnight.png", piece: "n", showMove: false,  showCapture: false},
+      { image: "/assets/images/blackBishop.png", piece: "b", showMove: false,  showCapture: false},
+      { image: "/assets/images/blackQueen.png", piece: "q", showMove: false,  showCapture: false},
+      { image: "/assets/images/blackKing.png", piece: "k", showMove: false,  showCapture: false},
+      { image: "/assets/images/blackBishop.png", piece: "b", showMove: false,  showCapture: false},
+      { image: "/assets/images/blackKnight.png", piece: "n", showMove: false,  showCapture: false},
+      { image: "/assets/images/blackRook.png", piece: "r", showMove: false,  showCapture: false}
     ],
     [
-      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false },
-      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false },
-      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false },
-      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false },
-      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false },
-      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false },
-      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false },
-      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false }
+      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false ,  showCapture: false},
+      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false ,  showCapture: false},
+      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false ,  showCapture: false},
+      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false ,  showCapture: false},
+      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false ,  showCapture: false},
+      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false ,  showCapture: false},
+      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false ,  showCapture: false},
+      { image: "/assets/images/blackPawn.png", piece: "p", showMove: false ,  showCapture: false}
     ],
     [
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false }
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false}
     ],
     [
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false }
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false}
     ],
     [
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false }
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false}
     ],
     [
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false },
-      { image: "", piece: "", showMove: false }
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false},
+      { image: "", piece: "", showMove: false ,  showCapture: false}
     ],
     [
-      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false },
-      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false },
-      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false },
-      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false },
-      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false },
-      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false },
-      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false },
-      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false }
+      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false ,  showCapture: false},
+      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false ,  showCapture: false},
+      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false ,  showCapture: false},
+      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false ,  showCapture: false},
+      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false ,  showCapture: false},
+      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false ,  showCapture: false},
+      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false ,  showCapture: false},
+      { image: "/assets/images/whitePawn.png", piece: "P", showMove: false ,  showCapture: false}
     ],
     [
-      { image: "/assets/images/whiteRook.png", piece: "R", showMove: false },
-      { image: "/assets/images/whiteKnight.png", piece: "N", showMove: false },
-      { image: "/assets/images/whiteBishop.png", piece: "B", showMove: false },
-      { image: "/assets/images/whiteQueen.png", piece: "Q", showMove: false },
-      { image: "/assets/images/whiteKing.png", piece: "K", showMove: false },
-      { image: "/assets/images/whiteBishop.png", piece: "B", showMove: false },
-      { image: "/assets/images/whiteKnight.png", piece: "N", showMove: false },
-      { image: "/assets/images/whiteRook.png", piece: "R", showMove: false }
+      { image: "/assets/images/whiteRook.png", piece: "R", showMove: false ,  showCapture: false},
+      { image: "/assets/images/whiteKnight.png", piece: "N", showMove: false ,  showCapture: false},
+      { image: "/assets/images/whiteBishop.png", piece: "B", showMove: false ,  showCapture: false},
+      { image: "/assets/images/whiteQueen.png", piece: "Q", showMove: false ,  showCapture: false},
+      { image: "/assets/images/whiteKing.png", piece: "K", showMove: false ,  showCapture: false},
+      { image: "/assets/images/whiteBishop.png", piece: "B", showMove: false ,  showCapture: false},
+      { image: "/assets/images/whiteKnight.png", piece: "N", showMove: false,  showCapture: false },
+      { image: "/assets/images/whiteRook.png", piece: "R", showMove: false ,  showCapture: false}
     ]
   ];
 
-  currentPossibleMoves: [{ i: number, j: number, show: boolean }];
+  currentPossibleMoves: [{ i: number, j: number, show: boolean , capture: boolean}];
   activeI: number;
   activeJ: number;
 
@@ -119,7 +119,7 @@ export class AppComponent {
       //Take piece
       else if (this.currentPossibleMoves.find(element => (element.i == event.container.data.indexI && element.j == event.container.data.indexJ && element.show == false))) {
         //console.log("take");
-        this.chessBoard2[event.previousContainer.data.indexI][event.previousContainer.data.indexJ] = { image: '', piece: '', showMove: false }
+        this.chessBoard2[event.previousContainer.data.indexI][event.previousContainer.data.indexJ] = { image: '', piece: '', showMove: false , showCapture: false}
         this.chessBoard2[event.container.data.indexI][event.container.data.indexJ] = { ...event.previousContainer.data.square }
         this.currentTurn == 'white' ? this.currentTurn = 'black' : this.currentTurn = 'white';
       }
@@ -139,7 +139,7 @@ export class AppComponent {
     if (!this.pieceClicked) {
       //console.log("pieceHeld")
       var currentSquare = this.chessBoard2[i][j];
-      this.currentPossibleMoves = [{ i: 0, j: 0, show: false }];
+      this.currentPossibleMoves = [{ i: 0, j: 0, show: false , capture: false}];
       this.color = this.getPieceColor(this.chessBoard2[i][j].piece);
       this.clearPossibleMoves();
 
@@ -164,6 +164,7 @@ export class AppComponent {
       //show possible moves on board
       if (this.currentPossibleMoves.length > 0) {
         this.currentPossibleMoves.forEach((element) => element.show ? this.chessBoard2[element.i][element.j].showMove = true : this.chessBoard2[element.i][element.j].showMove = false);
+        this.currentPossibleMoves.forEach((element) => element.capture ? this.chessBoard2[element.i][element.j].showCapture = true : this.chessBoard2[element.i][element.j].showCapture = false);
         //this.getSquareColors(this.currentPossibleMoves, i, j);
       }
     }
@@ -233,10 +234,10 @@ export class AppComponent {
       }
       if (this.getPieceColor(this.chessBoard2[i][j].piece) != this.color) {
         if (this.getPieceColor(this.chessBoard2[i][j].piece) != '') {
-          this.currentPossibleMoves.push({ i: i, j: j, show: false });
+          this.currentPossibleMoves.push({ i: i, j: j, show: false , capture: true});
           break;
         }
-        else this.currentPossibleMoves.push({ i: i, j: j, show: true });
+        else this.currentPossibleMoves.push({ i: i, j: j, show: true , capture: false});
       }
       else break;
     }
@@ -249,10 +250,10 @@ export class AppComponent {
       }
       if (this.getPieceColor(this.chessBoard2[i][j].piece) != this.color) {
         if (this.getPieceColor(this.chessBoard2[i][j].piece) != '') {
-          this.currentPossibleMoves.push({ i: i, j: j, show: false });
+          this.currentPossibleMoves.push({ i: i, j: j, show: false , capture: true});
           break;
         }
-        else this.currentPossibleMoves.push({ i: i, j: j, show: true });
+        else this.currentPossibleMoves.push({ i: i, j: j, show: true , capture: false});
       }
       break;
     }
@@ -261,38 +262,38 @@ export class AppComponent {
   setPossibleMovesKnight(x, y) {
     if (!this.isOutOfBounds(x, y)) {
       if (this.getPieceColor(this.chessBoard2[x][y].piece) != this.color) {
-        this.getPieceColor(this.chessBoard2[x][y].piece) != '' ? this.currentPossibleMoves.push({ i: x, j: y, show: false }) : this.currentPossibleMoves.push({ i: x, j: y, show: true });
+        this.getPieceColor(this.chessBoard2[x][y].piece) != '' ? this.currentPossibleMoves.push({ i: x, j: y, show: false , capture:true}) : this.currentPossibleMoves.push({ i: x, j: y, show: true, capture:false });
       }
     }
   }
 
   setPossibleMovesWhitePawn(x, y) {
     if (!this.isOutOfBounds(x, y + 1)) {
-      if (this.chessBoard2[x][y + 1].piece != '' && this.getPieceColor(this.chessBoard2[x][y + 1].piece) != this.color) { this.currentPossibleMoves.push({ i: x, j: y + 1, show: false }); }
+      if (this.chessBoard2[x][y + 1].piece != '' && this.getPieceColor(this.chessBoard2[x][y + 1].piece) != this.color) { this.currentPossibleMoves.push({ i: x, j: y + 1, show: false , capture: true}); }
     }
     if (!this.isOutOfBounds(x, y - 1)) {
-      if (this.chessBoard2[x][y - 1].piece != '' && this.getPieceColor(this.chessBoard2[x][y - 1].piece) != this.color) { this.currentPossibleMoves.push({ i: x, j: y - 1, show: false }); }
+      if (this.chessBoard2[x][y - 1].piece != '' && this.getPieceColor(this.chessBoard2[x][y - 1].piece) != this.color) { this.currentPossibleMoves.push({ i: x, j: y - 1, show: false , capture: true}); }
     }
     if (x + 1 == 6) {
       //console.log('start');
-      if (this.chessBoard2[x][y].piece == '') { this.currentPossibleMoves.push({ i: x, j: y, show: true }); }
-      if (this.chessBoard2[x][y].piece == '' && this.chessBoard2[x - 1][y].piece == '') { this.currentPossibleMoves.push({ i: x - 1, j: y, show: true }); }
+      if (this.chessBoard2[x][y].piece == '') { this.currentPossibleMoves.push({ i: x, j: y, show: true, capture: false }); }
+      if (this.chessBoard2[x][y].piece == '' && this.chessBoard2[x - 1][y].piece == '') { this.currentPossibleMoves.push({ i: x - 1, j: y, show: true , capture: false}); }
     }
-    else { if (this.chessBoard2[x][y].piece == '') { this.currentPossibleMoves.push({ i: x, j: y, show: true }); } }
+    else { if (this.chessBoard2[x][y].piece == '') { this.currentPossibleMoves.push({ i: x, j: y, show: true , capture: false}); } }
   }
 
   setPossibleMovesBlackPawn(x, y) {
     if (!this.isOutOfBounds(x, y + 1)) {
-      if (this.chessBoard2[x][y + 1].piece != '' && this.getPieceColor(this.chessBoard2[x][y + 1].piece) != this.color) { this.currentPossibleMoves.push({ i: x, j: y + 1, show: false }); }
+      if (this.chessBoard2[x][y + 1].piece != '' && this.getPieceColor(this.chessBoard2[x][y + 1].piece) != this.color) { this.currentPossibleMoves.push({ i: x, j: y + 1, show: false , capture: true}); }
     }
     if (!this.isOutOfBounds(x, y - 1)) {
-      if (this.chessBoard2[x][y - 1].piece != '' && this.getPieceColor(this.chessBoard2[x][y - 1].piece) != this.color) { this.currentPossibleMoves.push({ i: x, j: y - 1, show: false }); }
+      if (this.chessBoard2[x][y - 1].piece != '' && this.getPieceColor(this.chessBoard2[x][y - 1].piece) != this.color) { this.currentPossibleMoves.push({ i: x, j: y - 1, show: false , capture: true}); }
     }
     if (x - 1 == 1) {
-      if (this.chessBoard2[x][y].piece == '') { this.currentPossibleMoves.push({ i: x, j: y, show: true }); }
-      if (this.chessBoard2[x][y].piece == '' && this.chessBoard2[x + 1][y].piece == '') { this.currentPossibleMoves.push({ i: x + 1, j: y, show: true }); }
+      if (this.chessBoard2[x][y].piece == '') { this.currentPossibleMoves.push({ i: x, j: y, show: true, capture: false }); }
+      if (this.chessBoard2[x][y].piece == '' && this.chessBoard2[x + 1][y].piece == '') { this.currentPossibleMoves.push({ i: x + 1, j: y, show: true , capture: false}); }
     }
-    else { if (this.chessBoard2[x][y].piece == '') { this.currentPossibleMoves.push({ i: x, j: y, show: true }); } }
+    else { if (this.chessBoard2[x][y].piece == '') { this.currentPossibleMoves.push({ i: x, j: y, show: true , capture: false}); } }
   }
 
   isOutOfBounds(i, j) {
@@ -304,10 +305,10 @@ export class AppComponent {
 
   checkForPromotion(i, j) {
     if (this.chessBoard2[i][j].piece == 'P' && i == 0) {
-      this.chessBoard2[i][j] = { image: "assets/images/whiteQueen.png", piece: "Q", showMove: false };
+      this.chessBoard2[i][j] = { image: "assets/images/whiteQueen.png", piece: "Q", showMove: false , showCapture: false};
     }
     else if (this.chessBoard2[i][j].piece == 'p' && i == 7) {
-      this.chessBoard2[i][j] = { image: "assets/images/blackQueen.png", piece: "q", showMove: false };
+      this.chessBoard2[i][j] = { image: "assets/images/blackQueen.png", piece: "q", showMove: false , showCapture: false};
     }
   }
 
@@ -439,6 +440,7 @@ export class AppComponent {
     for (var i = 0; i < 8; i++) {
       for (var j = 0; j < 8; j++) {
         this.chessBoard2[i][j].showMove = false;
+        this.chessBoard2[i][j].showCapture = false;
       }
     }
   }

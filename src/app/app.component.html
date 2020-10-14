@@ -9,7 +9,8 @@
              cdkDropListSortingDisabled="true" 
              [cdkDropListData]="{square:chessBoard2[i][j], indexI:i, indexJ:j}"
              (cdkDropListDropped)="drop($event)"
-             (mouseover)="pieceMousedOver(i, j)">              
+             (mouseover)="pieceMousedOver(i, j)"
+             [ngClass]="{'capture': square.showCapture == true}">              
           <img [src]="square.image" (mousedown)="downClick()" (mouseup)="upClick()" cdkDrag>
           <span *ngIf="square.showMove" class="dot"></span>
         </div>

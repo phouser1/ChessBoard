@@ -63,5 +63,13 @@
     margin-left: 37px;
     margin-top: 37px;
   }
+
+  .capture {
+    height: 101px;
+    width: 101px;
+    background-color: lightcoral;
+    display: inline-block;
+    opacity: 0.9;
+  }
   
   
