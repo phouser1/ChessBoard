@@ -65,8 +65,8 @@
   }
 
   .capture {
-    height: 101px;
-    width: 101px;
+    height: 100px;
+    width: 100px;
     background-color: lightcoral;
     display: inline-block;
     opacity: 0.9;
