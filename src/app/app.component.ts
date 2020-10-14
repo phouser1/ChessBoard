@@ -126,7 +126,7 @@ export class AppComponent {
       this.checkForPromotion(event.container.data.indexI, event.container.data.indexJ);
       this.updateFENPosition();
     }
-    //this.addMovesToMoveHistory(event.previousContainer.data.indexI, event.previousContainer.data.indexJ, event.container.data.indexI, event.container.data.indexJ);
+    this.addMovesToMoveHistory(event.previousContainer.data.indexI, event.previousContainer.data.indexJ, event.container.data.indexI, event.container.data.indexJ);
     this.pieceClicked = false;
     this.clearPossibleMoves();
   }
@@ -376,10 +376,10 @@ export class AppComponent {
     console.log(this.fenPosition);
   }
 
-  //addMovesToMoveHistory(i1, j1, i2, j2) {
-  //  this.moveHistory += (this.translateJIndex(j1) + this.translateIIndex(i1) + this.translateJIndex(j2) + this.translateIIndex(i2) +  ' ');
-  //  console.log(this.moveHistory);
-  //}
+  addMovesToMoveHistory(i1, j1, i2, j2) {
+   this.moveHistory += (this.translateJIndex(j1) + this.translateIIndex(i1) + this.translateJIndex(j2) + this.translateIIndex(i2) +  ', ');
+   console.log(this.moveHistory);
+  }
 
   translateJIndex(j) {
     if (j == 0) return 'a';
